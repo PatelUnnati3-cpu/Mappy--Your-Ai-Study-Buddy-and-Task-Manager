@@ -1,0 +1,40 @@
+{
+  "collections": {
+    "users": {
+      "schema": {
+        "email": "string",
+        "displayName": "string",
+        "photoURL": "string",
+        "currentTrack": "string",
+        "theme": "string",
+        "languageOption": "string",
+        "breakdownMode": "string",
+        "xp": "number",
+        "level": "number",
+        "streak": "number",
+        "muteVoice": "boolean",
+        "dailyReminders": "boolean",
+        "compactTaskView": "boolean",
+        "customCategories": "array",
+        "scratchpadNotes": "array",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      }
+    },
+    "tasks": {
+      "schema": {
+        "userId": "string",
+        "title": "string",
+        "completed": "boolean",
+        "seriousness": "string",
+        "category": "string",
+        "dueDate": "string",
+        "subtasks": "array",
+        "focusTimeSpent": "number",
+        "notes": "string",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      }
+    }
+  }
+}

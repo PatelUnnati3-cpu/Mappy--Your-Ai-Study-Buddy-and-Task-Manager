@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Mappy",
+  "description": "An emotionally intelligent AI Study Buddy and Task Supervisor with dynamic parent-style persona support.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
